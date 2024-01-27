@@ -1,0 +1,43 @@
+{
+    "window.zoomLevel": 0.2,
+    "workbench.colorTheme": "Dracula",
+    "symbols.hidesExplorerArrows": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [88, 120],
+    "workbench.startupEditor": "newUntitledFile", /* abrir sempre em new text */
+    "editor.renderLineHighlight": "gutter", /* contorno na linha selecionada */
+    "editor.fontLigatures": true, /* une simbolos ex: ==> */
+    "workbench.editor.labelFormat": "short", /* faz mostrar só o nome do arquivos e pasta */
+    "explorer.compactFolders": false, /* faz mostrar todas as pastas no lugar de pasta/pasta/arq */
+    "editor.semanticHighlighting.enabled": false, /* variaveis ficam todas brancas */
+    "breadcrumbs.enabled": false, /* tira o caminho do arquivo em edição */
+    "workbench.activityBar.location": "hidden", /* esconde menu da esquerda, acessa fácil com ctrl+q */
+    "editor.minimap.enabled": false, //* remove minimapa da direita *//
+    "apc.header": {
+        "height": 36
+    },
+    "apc.listRow": {
+        "height": 26
+    },
+    "apc.stylesheet": {
+        ".editor-actions": "display: none",
+        ".nosidebar .inline-tabs-placeholder": "width: 75px",
+        ".pane-header": "padding: 0 8px",
+        ".pane-body": "padding: 8px",
+        ".monaco-list-row": "border-radius: 4px;",
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+    },
+    "window.commandCenter": false,
+    "explorer.sortOrder": "foldersNestsFiles",
+    "explorer.fileNesting.enabled": true, //* une em pasta arquivos dependentes do outro *//
+    "explorer.fileNesting.patterns": {
+      "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+      "tailwind.config.js": "tailwind.config*, postcss.config*",
+      ".env.local": ".env*",
+      ".env": ".env*"
+    },
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+}
